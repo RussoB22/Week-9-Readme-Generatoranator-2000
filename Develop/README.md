@@ -15,9 +15,6 @@ A quick Readme generator that uses prompts to make a clean and easy to read Read
 
 ## Installation
 Go to the repo: https://github.com/RussoB22/Week-9-Readme-Generatoranator-2000 and clone it.
-Then open the project and go to the develop folder.
-Select that folder in terminal and install inquirer with 'npm i inquirer'
-The projects should run after inquirer is installed.
 
 ## Usage
 Open the file in terminal and type 'node index.js' inside of the Develop folder. Answer the promts. The readme will be generated in the same folder.
