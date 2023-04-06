@@ -21,6 +21,8 @@ The projects should run after inquirer is installed.
 
 ## Usage
 Open the file in terminal and type 'node index.js' inside of the Develop folder. Answer the promts. The readme will be generated in the same folder.
+![Short Tutorial](https://user-images.githubusercontent.com/123154529/230326469-0b9d74bb-ec84-4c4a-bbee-9fa9e741ce43.gif)
+
 
 ## Contributing
 As long as any of your pull requests are accepted, then you are a contributer.
