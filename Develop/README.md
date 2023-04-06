@@ -1,6 +1,8 @@
 # Readme Generatoranator 2000
-    
-## Description ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Description
 A quick Readme generator that uses prompts to make a clean and easy to read Readme file.
 
 ## Table of Contents
@@ -24,8 +26,8 @@ As long as any of your pull requests are accepted, then you are a contributer.
 Run the generator and answer the prompts or leave the prompts blank to see what happens.
 
 ## License
-This project is licensed under the MIT license.
-A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.  There are many variations of this license in use.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the MIT license. For more information, please visit [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
 
 ## Questions
 If you have any questions or issues, please contact me at [russo.borneo2013@gmail.com](mailto:russo.borneo2013@gmail.com). You can also check out my other projects at [https://github.com/RussoB22](https://github.com/RussoB22).
