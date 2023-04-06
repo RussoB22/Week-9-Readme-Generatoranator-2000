@@ -97,36 +97,36 @@ inquirer
 
     const readmeContent = `# ${title}
     
-    ## Description ![License](${licenseBadge})
-    ${description}
-    
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [License](#license)
-    - [Questions](#questions)
-    
-    ## Installation
-    ${installation}
-    
-    ## Usage
-    ${usage}
-    
-    ## Contributing
-    ${contributing}
-    
-    ## Tests
-    ${tests}
-    
-    ## License
-    This project is licensed under the ${license} license.
-    ${licenseDescription}
-    
-    ## Questions
-    If you have any questions or issues, please contact me at [${email}](mailto:${email}). You can also check out my other projects at [https://github.com/${github}](https://github.com/${github}).
-    `;
+## Description ![License](${licenseBadge})
+${description}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
+## Installation
+${installation}
+
+## Usage
+${usage}
+
+## Contributing
+${contributing}
+
+## Tests
+${tests}
+
+## License
+This project is licensed under the ${license} license.
+${licenseDescription}
+
+## Questions
+If you have any questions or issues, please contact me at [${email}](mailto:${email}). You can also check out my other projects at [https://github.com/${github}](https://github.com/${github}).
+`;
     
 // TODO: Create a function to write README file
     fs.writeFile('README.md', readmeContent, (err) => {
