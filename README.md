@@ -1,6 +1,8 @@
 # Readme Generatoranator 2000
-    
-## Description ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Description
 A quick Readme generator that uses prompts to make a clean and easy to read Readme file.
 
 ## Table of Contents
@@ -13,9 +15,12 @@ A quick Readme generator that uses prompts to make a clean and easy to read Read
 
 ## Installation
 Go to the repo: https://github.com/RussoB22/Week-9-Readme-Generatoranator-2000 and clone it.
+Then open the project and go to the develop folder.
+Select that folder in terminal and install inquirer with 'npm i inquirer'
+The projects should run after inquirer is installed.
 
 ## Usage
-Open the file in terminal and run node index.js inside of the Develop folder. The readme will be generated in the same folder.
+Open the file in terminal and type 'node index.js' inside of the Develop folder. Answer the promts. The readme will be generated in the same folder.
 
 ## Contributing
 As long as any of your pull requests are accepted, then you are a contributer.
@@ -24,9 +29,8 @@ As long as any of your pull requests are accepted, then you are a contributer.
 Run the generator and answer the prompts or leave the prompts blank to see what happens.
 
 ## License
-This project is licensed under the MIT license.
-### Notice
-A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the       software/source.  There are many variations of this license in use.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the MIT license. For more information, please visit [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
 
 ## Questions
 If you have any questions or issues, please contact me at [russo.borneo2013@gmail.com](mailto:russo.borneo2013@gmail.com). You can also check out my other projects at [https://github.com/RussoB22](https://github.com/RussoB22).
