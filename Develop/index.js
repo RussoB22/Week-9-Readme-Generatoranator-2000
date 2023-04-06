@@ -1,7 +1,20 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-
+function getLicenseBadge(license) {
+    switch (license) {
+      case 'MIT':
+        return 'https://img.shields.io/badge/License-MIT-yellow.svg';
+      case 'GPLv3':
+        return 'https://img.shields.io/badge/License-GPLv3-blue.svg';
+      case 'Apache':
+        return 'https://img.shields.io/badge/License-Apache%202.0-blue.svg';
+      case 'Unlicense':
+        return 'https://img.shields.io/badge/license-Unlicense-blue.svg';
+      default:
+        return '';
+    }
+  }
 // TODO: Create an array of questions for user input
 inquirer
 .prompt([
@@ -64,10 +77,12 @@ inquirer
         github,
         email,
     } = answers;
-    
+
+    const licenseBadge = getLicenseBadge(license);
+
     const readmeContent = `# ${title}
     
-    ## Description
+    ## Description ![License](${licenseBadge})
     ${description}
     
     ## Table of Contents
@@ -100,7 +115,7 @@ inquirer
 // TODO: Create a function to write README file
     fs.writeFile('README.md', readmeContent, (err) => {
         if (err) throw err;
-        console.log('README file created successfully!');
+        console.log('README Generated!');
     });
 })
 .catch((error) => console.error(error));
