@@ -15,6 +15,20 @@ function getLicenseBadge(license) {
         return '';
     }
   }
+function getLicenseDescription(license) {
+switch (license) {
+    case 'MIT':
+    return 'A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.  There are many variations of this license in use.';
+    case 'GPLv3':
+    return 'You may copy, distribute and modify the software as long as you track changes/dates in source files. Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.';
+    case 'Apache':
+    return 'You can do what you like with the software, as long as you include the required notices. This permissive license contains a patent license from the contributors of the code.';
+    case 'Unlicense':
+    return 'Releases code into the public domain, thereby releasing all rights you may hold to that code.';
+    default:
+    return '';
+}
+}
 // TODO: Create an array of questions for user input
 inquirer
 .prompt([
@@ -79,6 +93,7 @@ inquirer
     } = answers;
 
     const licenseBadge = getLicenseBadge(license);
+    const licenseDescription = getLicenseDescription(license);
 
     const readmeContent = `# ${title}
     
@@ -107,6 +122,7 @@ inquirer
     
     ## License
     This project is licensed under the ${license} license.
+    ${licenseDescription}
     
     ## Questions
     If you have any questions or issues, please contact me at [${email}](mailto:${email}). You can also check out my other projects at [https://github.com/${github}](https://github.com/${github}).
